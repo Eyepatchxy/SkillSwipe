@@ -1,4 +1,12 @@
-.venv/
-__pycache__/
 *.pyc
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment
 .env
+
+# Alembic
+alembic/versions/*.pyc
